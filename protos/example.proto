@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.github.ssi.multityping;
+option go_package = "./backend/types/example;";
+
+message Example {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+}
